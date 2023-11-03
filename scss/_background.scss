@@ -1,0 +1,31 @@
+.background {
+    background: url(../image/image.jpg) 100% 0 fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: visible;
+
+    div {
+        width: 720px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+    }
+
+    p {
+        font-weight: 4.5rem;
+        color: white;
+        font-family: 'Agbalumo';
+        font-size: 35px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

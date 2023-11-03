@@ -1,0 +1,115 @@
+.pie_pagina {
+    height: 300px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #F5F7F8;
+
+    h4 {
+        color: #279EFF;
+    }
+
+    span {
+        color: #006A71;
+    }
+
+    span:hover {
+        color: #03C988;
+    }
+
+    @media (max-width: 768px) {
+        img {
+            padding: 5px;
+        }
+    }
+}
+
+.menu-footer {
+    a {
+        color: #006A71;
+        padding: 5px;
+    }
+
+    a:hover {
+        color: #03C988;
+    }
+}
+
+.menu-footer-01 {
+    color: #006A71;
+    padding: 5px;
+}
+
+.menu-footer-01:hover {
+    color: #03C988;
+}
+
+.multi-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.multi-bttn {
+
+    .btn-footer {
+        flex: 1;
+        position: relative;
+        padding: 1rem 2rem;
+        border: 2px solid #8CC0DE;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1em;
+        letter-spacing: 1px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+        color: #D2DE32;
+        background: transparent;
+        overflow: hidden;
+        transition: background-color 0.5s ease;
+        position: relative;
+    }
+
+    .btn-footer::before,
+    .btn-footer::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .btn-footer:hover {
+        color: #fff;
+        transition: 0.1s ease;
+        background-color: #006A71;
+    }
+
+    .btn-footer:nth-of-type(1) {
+        border-radius: 6px 0 0 6px;
+    }
+
+    .btn-footer:nth-of-type(3) {
+        border-radius: 0 6px 6px 0;
+    }
+}
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+}
+@media (max-width: 768px) {
+
+        .btn-footer {
+            margin: 5px;
+        }
+}
+
+.pie-pagina-01 {
+    background: #006A71;
+
+    p {
+        color: #fff;
+        text-align: center;
+        margin: 20px;
+    }
+}
